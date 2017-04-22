@@ -1,7 +1,10 @@
-# test coverage for  [csv-parser (v1.11.0)](https://github.com/mafintosh/csv-parser)  [![npm package](https://img.shields.io/npm/v/npmtest-csv-parser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-csv-parser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-csv-parser.svg)](https://travis-ci.org/npmtest/node-npmtest-csv-parser)
+# npmtest-csv-parser
+
+#### basic test-coverage for  [csv-parser (v1.11.0)](https://github.com/mafintosh/csv-parser)  [![npm package](https://img.shields.io/npm/v/npmtest-csv-parser.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-csv-parser) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-csv-parser.svg)](https://travis-ci.org/npmtest/node-npmtest-csv-parser)
+
 #### Streaming CSV parser that aims for maximum speed as well as compatibility with the csv-spectrum test suite
 
-[![NPM](https://nodei.co/npm/csv-parser.png?downloads=true)](https://www.npmjs.com/package/csv-parser)
+[![NPM](https://nodei.co/npm/csv-parser.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/csv-parser)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-csv-parser/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-csv-parser/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-csv-parser/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-csv-parser/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-csv-parser/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-csv-parser/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-csv-parser/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-csv-parser/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-csv-parser/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-csv-parser/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-csv-parser%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-csv-parser/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-csv-parser/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-csv-parser/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-csv-parser/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-csv-parser%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-csv-parser/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-csv-parser/build/test-report.html](https://npmtest.github.io/node-npmtest-csv-parser/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-csv-parser/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-csv-parser/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-csv-parser/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-csv-parser/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-csv-parser/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-csv-parser/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-csv-parser/build/screenCapture.npmPackageListing.svg)
 
@@ -70,17 +79,14 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "mafintosh",
-            "email": "mathiasbuus@gmail.com"
+            "name": "mafintosh"
         },
         {
-            "name": "maxogden",
-            "email": "max@maxogden.com"
+            "name": "maxogden"
         }
     ],
     "name": "csv-parser",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mafintosh/csv-parser.git"
